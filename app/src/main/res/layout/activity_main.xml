@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textViewDBS"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/dbs"
+        android:backgroundTint="#68A58F8F"
+        android:backgroundTintMode="multiply"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:text="@string/dbs" />
+
+    <TextView
+        android:id="@+id/textViewOCBC"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/corporate_governance"
+        android:backgroundTint="#68A58F8F"
+        android:backgroundTintMode="multiply"
+        android:gravity="center"
+        android:text="@string/ocbc"
+        android:textColor="@color/black"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textViewUOB"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/uob"
+        android:backgroundTint="#68A58F8F"
+        android:backgroundTintMode="multiply"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:text="@string/uob" />
+</LinearLayout>
